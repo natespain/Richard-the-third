@@ -491,6 +491,13 @@ a.scsa-logo:hover{
   }
 }
 
+/* Smaller than phablet*/
+@media (max-width: 550px) {
+  footer a.scsa-logo img{
+    max-width:150px;
+  }
+}
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
