@@ -121,7 +121,7 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  background: #da5529;
+  background: rgba(244, 241, 227, 1);
   font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
@@ -136,8 +136,18 @@ body {
 
 /* Custom Base Styles */
 
+header{
+  background-color: rgba(218, 85, 41, 1);
+  padding: 0 0 50px 0;
+  border-bottom: solid 3px rgba(158, 67, 49, 1);
+}
+
+header img{
+margin: 0 auto;
+}
+
 section.schedule{
-  padding: 0 0 20px 0;
+  padding: 0 0 50px 0;
 }
 
 footer{
@@ -187,7 +197,7 @@ p {
 }
 
 .overview{
-  padding: 5% 0 0 0;
+  padding: 20px 0 0 0;
   /* font-size: 1.4em; */
   line-height: 1.4em;
 }
@@ -225,7 +235,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: rgba(67, 55, 67, .5);
+  color: rgba(67, 55, 67, .7);
   text-align: center;
   font-size: .8em;
   font-weight: 700;
@@ -236,7 +246,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid rgba(67, 55, 67, .4);
+  border: 1px solid rgba(67, 55, 67, .6);
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -257,9 +267,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: rgba(218, 85, 41, 1);
-  background-color: rgba(67, 55, 67, .9);
-  border-color: rgba(67, 55, 67, .8); }
+  color: rgba(67, 55, 67, 1);
+  background-color: rgba(218, 85, 41, 1);
+  border: 1px solid rgba(67, 55, 67, 0); }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -270,9 +280,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: rgba(67, 55, 67, 1);
-  background-color: rgba(67, 55, 67, .1);
-  border-color: rgba(67, 55, 67, .5); }
+  color: rgba(244, 241, 227, 1);
+  background-color: rgba(158, 67, 49, 1);
+  border: 1px solid rgba(67, 55, 67, 0); }
 
 
 /* Forms
