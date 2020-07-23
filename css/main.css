@@ -198,12 +198,12 @@ footer a:hover{
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: rgba(67, 55, 67, 1);
+  color: rgba(67, 55, 67, .8);
   text-decoration: none;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
 a:hover {
-  color: #0FA0CE; }
+  color: rgba(67, 55, 67, 1); }
 
 
 /* Buttons
