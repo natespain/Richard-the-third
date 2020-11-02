@@ -150,6 +150,29 @@ section.schedule{
   padding: 0 0 50px 0;
 }
 
+.accordian{
+  margin-top: 20px;
+  padding:15px;
+  background-color:rgba(222, 221, 202, 1);
+}
+
+.accordian a.click{
+  /* padding:15px;
+  background-color:rgba(222, 221, 202, 1); */
+  /* box-shadow: 0px 0px 5px #ccc; */
+}
+
+.accordian a.click{cursor:pointer;}
+
+div.expand{
+    display:none;
+    margin-top: 15px;
+    padding: 20px;
+    z-index:-4;
+    border-top: 1px solid rgba(67, 55, 67, .6);
+}
+
+
 footer{
   background-color: rgba(67, 55, 67, 1);
   padding: 50px 0 50px 0;
